@@ -10,7 +10,7 @@ urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 app = Flask(__name__)
 
-VIEW_API_URL = "https://bngx-visit-jwt.onrender.com/visit_profile?player_id={uid}&token={token}"
+VIEW_API_URL = "https://visit-bjwt.onrender.com/visit_profile?player_id={uid}&token={token}"
 JWT_API_URL = "https://ffwlxd-access-jwt.vercel.app/api/get_jwt?guest_uid={uid}&guest_password={password}"
 MAX_PARALLEL_REQUESTS = 40
 
