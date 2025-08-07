@@ -12,7 +12,7 @@ app = Flask(__name__)
 
 VIEW_API_URL = "https://visit-bjwt-bngxx.vercel.app/visit_profile?player_id={uid}&token={token}"
 JWT_API_URL = "https://ffwlxd-access-jwt.vercel.app/api/get_jwt?guest_uid={uid}&guest_password={password}"
-MAX_PARALLEL_REQUESTS = 40
+MAX_PARALLEL_REQUESTS = 25
 
 # حسابات مخزنة في dict: uid -> password
 accounts_passwords = {
